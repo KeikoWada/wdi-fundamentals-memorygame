@@ -5,9 +5,14 @@ margin: 0;
 
 nav {
 	background-color: #00A6B3;
-	color: #ffffff;
+	color: #FFFFFF;
 	padding: 20px 0;
 }
+
+nav a {
+	color: #ffffff;
+}
+
 
 a {
 	font-family: RALEWAY;
@@ -33,7 +38,7 @@ h1 {
 
 h2 {
 	font-family: RALEWAY;
-	color: #0D2C40;
+	color: #F15B31;
 	letter-spacing: 1px;
 	font-weight: 600;
 	font-size: 20px;
@@ -55,10 +60,18 @@ main {
 	margin: 35px auto;
 }
 
+ol {
+  list-style-type: none;
+}
 img {
 	margin-top: : 40px;
 	margin-right: 8px;
 	margin-left: 8px;
+}
+
+button {
+	background-color: yellow;
+	size: 20px;
 }
 
 footer {
@@ -94,3 +107,4 @@ font-size: 0;
 	color: #F15B31;
 	font-weight: 700;
 }
+
